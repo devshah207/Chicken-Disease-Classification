@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 
-project_name = "Chicken Disease Classifier"
+project_name = "CNNClassifier"
 
 list_of_files = [
     ".github/workflows/.gitkeep",  # needed for deployment. (here yaml file will be created in which cicd related commands will be written)
