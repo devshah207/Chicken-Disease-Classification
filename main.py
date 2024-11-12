@@ -59,3 +59,6 @@ except Exception as e:
 # except Exception as e:
 #         logger.exception(e)
 #         raise e
+
+
+## Instead of running the main.py file again and again we can create a dvc.yaml file which keeps track of the module which are completed and those which are not completed. 
